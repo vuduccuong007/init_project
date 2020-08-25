@@ -6,11 +6,11 @@ ruby "2.6.6"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "coffee-rails", "~> 4.2"
 gem "jbuilder", "~> 2.5"
+gem "mysql2"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.3"
 gem "rails-i18n"
 gem "sass-rails", "~> 5.0"
-gem "msql2"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
 
