@@ -5,7 +5,18 @@ vi:
       title: "Ruby on Rails Tutorial Sample App VN"
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
-
+    footer:
+      text: "The"
+      text1: "by"
+      text2: "About"
+      text3: "Liên hệ"
+      path_text1: "Ruby on Rails Tutorial"
+      path_text2: "Michael Hartl"
+      path_text3: "Tin tức"
+    header:
+      text: "Trang chủ"
+      text1: "Trợ giúp"
+      text2: "Đăng ký"
   static_pages:
     home:
       subtitle: "Trang chủ"
@@ -32,3 +43,10 @@ vi:
       end_text3: "để hướng dẫn lập trình viên"
       path_text4: "Ruby on Rails"
       end_text4: "đây là ứng dụng sample"
+    contact:
+      subtitle: "Lien he"
+      text: "Lien he ve Ruby on Rails Tutorial ve ung dung sample o"
+      path_text: "Trang lien he"
+  users:
+    new:
+      subtitle: "Dang ky"
