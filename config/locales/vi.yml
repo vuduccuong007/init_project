@@ -1,5 +1,5 @@
 vi:
-  hello: "Xin chào"
+  title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App VN"
@@ -9,9 +9,11 @@ vi:
   static_pages:
     home:
       subtitle: "Trang chủ"
-      page_text: "Đây là trang chủ của"
-      path_text: "Ruby on Rails Tutorial"
-      text: "Ứng dụng sample "
+      text: "Chao mung den voi Sample App"
+      page_text2: "Sign up now!"
+      path_text1: "Ruby on Rails Tutorial"
+      text1: "Đây là ứng dụng của"
+      text2: "ứng dụng sample"
     help:
       subtitle: "Trợ giúp"
       page_text: "Trợ giúp Rails Tutorial"
@@ -19,7 +21,7 @@ vi:
       text: "Để xem gợi ý, hãy đọc"
       path_text2: "Sách hướng dẫn Ruby on Rails"
     about:
-      subtitle: "Liên hê"
+      subtitle: "Liên hệ"
       path_text: "Ruby on Rails Tutorial"
       end_text: "một phần của"
       path_text1: "Learn Enough"
