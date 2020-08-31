@@ -1,4 +1,8 @@
 vi:
+  global:
+    text_success: "Chào mừng đến với Sample App!"
+    text_error: "Đăng ký lỗi"
+    not_found_user: "không tìm thấy người dùng"
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -50,3 +54,15 @@ vi:
   users:
     new:
       subtitle: "Đăng ký"
+      submit: "Tạo tài khoản của tôi"
+      name: "Tên"
+  shared:
+    error_messages:
+      text: "Biểu mẫu chứa"
+      error: "lỗi"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
