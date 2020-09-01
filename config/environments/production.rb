@@ -1,5 +1,5 @@
 Rails.application.configure do
-  config.cache_classes = true  
+  config.cache_classes = true
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
@@ -83,4 +83,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.force_ssl = true
 end
