@@ -9,10 +9,24 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
       en: "English"
       vi: "Vietnamese"
+    footer:
+      text: "The"
+      text1: "by"
+      text2: "About"
+      text3: "Contact"
+      path_text1: "Ruby on Rails Tutorial"
+      path_text2: "Michael Hartl"
+      path_text3: "News"
     header:
-      text: "Home"
-      text1: "Help"
-      text2: "Log in"
+      home: "Home"
+      help: "Help"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
+      app_name: "Sample app"
   static_pages:
     home:
       subtitle: "Home"
@@ -47,6 +61,15 @@ en:
     new:
       subtitle: "Sign up"
       submit: "Create my account"
+  sessions:
+    new:
+      title: "Log in"
+      login: "Log in"
+      new_user: "New User?"
+      sign_up: "Sign up now!"
+      password: "Password"
+    create:
+      invalid: "Invalid email/password combination"
   shared:
     error_messages:
       text: "The form contains"

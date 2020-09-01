@@ -10,22 +10,28 @@ vi:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
     footer:
-      text: "The"
-      text1: "by"
-      text2: "About"
+      text: "Hướng dẫn "
+      text1: "bởi"
+      text2: "Giới thiệu"
       text3: "Liên hệ"
       path_text1: "Ruby on Rails Tutorial"
       path_text2: "Michael Hartl"
       path_text3: "Tin tức"
     header:
-      text: "Trang chủ"
-      text1: "Trợ giúp"
-      text2: "Đăng ký"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Thông tin tài khoản"
+      settings: "Thiết lập"
+      log_out: "Đăng xuất"
+      log_in: "Đăng nhập"
+      app_name: "Sample app"
   static_pages:
     home:
       subtitle: "Trang chủ"
-      text: "Chao mung den voi Sample App"
-      page_text2: "Sign up now!"
+      text: "Chào mừng đến với Sample App"
+      path_text2: "Đăng ký ngay!"
       path_text1: "Ruby on Rails Tutorial"
       text1: "Đây là ứng dụng của"
       text2: "ứng dụng sample"
@@ -56,6 +62,15 @@ vi:
       subtitle: "Đăng ký"
       submit: "Tạo tài khoản của tôi"
       name: "Tên"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      login: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up: "Đăng ký ngay!"
+      password: "Mật khẩu"
+    create:
+      invalid: "Email/mật khẩu không hợp lệ"
   shared:
     error_messages:
       text: "Biểu mẫu chứa"
