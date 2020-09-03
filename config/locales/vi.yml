@@ -69,6 +69,7 @@ vi:
       new_user: "Người dùng mới?"
       sign_up: "Đăng ký ngay!"
       password: "Mật khẩu"
+      remember: "Nhớ tôi ở thiết bị này"
     create:
       invalid: "Email/mật khẩu không hợp lệ"
   shared:
