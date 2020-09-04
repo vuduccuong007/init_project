@@ -68,6 +68,7 @@ en:
       new_user: "New User?"
       sign_up: "Sign up now!"
       password: "Password"
+      remember: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   shared:

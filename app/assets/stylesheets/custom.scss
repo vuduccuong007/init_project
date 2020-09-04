@@ -114,7 +114,7 @@ footer {
   float: left;
   width: 100%;
   margin-top: 45px;
-  moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -187,13 +187,14 @@ input {
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
+  
   span {
-  margin-left: 20px;
-  font-weight: normal;
+    margin-left: 20px;
+    font-weight: normal;
   }
 }
 
 #session_remember_me {
-width: auto;
-margin-left: 0;
+  width: auto;
+  margin-left: 0;
 }
