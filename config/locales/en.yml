@@ -9,6 +9,11 @@ en:
     destroy_fail: "Delete fail"
     please_login: "Please log in "
     log_in_false: "Invalid email/password combination"
+    invalidate_activation_link: "Invalid activation link"
+    acc_activated: "Account activated!"
+    text_check_your_mail: "Check your email for the activation link."
+    text_acc_not_activated: "Account not activated. "
+    text_check_email: "Please check your email to activate your account."
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -78,6 +83,8 @@ en:
     index:
       subtitle: "All Users"
       title: "Users list"
+  user_mailler:
+
   sessions:
     new:
       title: "Log in"
@@ -92,6 +99,14 @@ en:
     error_messages:
       text: "The form contains"
       error: "error"
+  user_mailer:
+    account_activation:
+      title: "Sample app"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+  mailer:
+    account_activation: "Account activation"
   activerecord:
     attributes:
       user:

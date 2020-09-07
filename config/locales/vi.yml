@@ -9,6 +9,11 @@ vi:
     destroy_fail: "Xóa không thành công"
     please_login: "Đăng nhập!"
     log_in_false: "Email / mật khẩu không hợp lệ"
+    invalidate_activation_link: "link không tồn tại"
+    acc_activated: "Xác thực tài khoản!"
+    text_check_your_mail: "Kiểm tra mail để kích hoạt tài khoản"
+    text_acc_not_activated: "Tài khoản không được xác thực"
+    text_check_email: "Check mail để xác thực tài khoản"
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -72,7 +77,7 @@ vi:
       delete: "Xóa"
       you_sure: "Bạn chắc chưa?"
     edit:
-      subtile: "Chỉnh sửa người dùng"
+      subtitle: "Chỉnh sửa người dùng"
       title: "Cập nhật hồ sơ của bản thân"
       change: "Thay đổi"
       save: "Lưu"
@@ -93,6 +98,14 @@ vi:
     error_messages:
       text: "Biểu mẫu chứa"
       error: "lỗi"
+  user_mailer:
+    account_activation:
+      title: "Sample app"
+      hi: "Xin chào"
+      welcome: "Chào mừng đến với Sample App! Click vào link dưới đây để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+  mailer:
+    account_activation: "Kích hoạt tài khoản"
   activerecord:
     attributes:
       user:
