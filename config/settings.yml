@@ -16,6 +16,8 @@ footer:
   path_link3: "https://news.railstutorial.org/"
 contact:
   path_link: "https://www.railstutorial.org/contac"
+edit:
+  ava: "https://gravatar.com/emails"
 user:
   validate:
     name_max: 50
@@ -23,3 +25,10 @@ user:
     pass_min: 6
 users_helper:
   size: 80
+users_controller:
+  page: 10
+users:
+   user:
+     size_image: 50
+paging:
+  size: 20

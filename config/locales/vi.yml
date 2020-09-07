@@ -3,6 +3,12 @@ vi:
     text_success: "Chào mừng đến với Sample App!"
     text_error: "Đăng ký lỗi"
     not_found_user: "không tìm thấy người dùng"
+    update_success: "Cập nhât thành công"
+    update_error: "Cập nhật thất bại"
+    user_delete: "Xóa người dùng"
+    destroy_fail: "Xóa không thành công"
+    please_login: "Đăng nhập!"
+    log_in_false: "Email / mật khẩu không hợp lệ"
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -62,6 +68,17 @@ vi:
       subtitle: "Đăng ký"
       submit: "Tạo tài khoản của tôi"
       name: "Tên"
+    user:
+      delete: "Xóa"
+      you_sure: "Bạn chắc chưa?"
+    edit:
+      subtile: "Chỉnh sửa người dùng"
+      title: "Cập nhật hồ sơ của bản thân"
+      change: "Thay đổi"
+      save: "Lưu"
+    index:
+      subtitle: "Tất cả người dùng"
+      title: "Danh sách người dùng"
   sessions:
     new:
       title: "Đăng nhập"
