@@ -14,6 +14,13 @@ vi:
     text_check_your_mail: "Kiểm tra mail để kích hoạt tài khoản"
     text_acc_not_activated: "Tài khoản không được xác thực"
     text_check_email: "Check mail để xác thực tài khoản"
+    pass_expired: "Đặt lại mật khẩu đã hết hạn."
+    pass_reset: "Mật khẩu đã được đặt lại."
+    pass_empty: "không thể để trống"
+    email_not_found: "Không tìm thấy địa chỉ email"
+    email_send_with_pw_reset: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+    reset_pass_faild: "Cập nhật mật khẩu không thành công"
+    invalid_user: "Người dùng không hợp lệ"
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -92,6 +99,7 @@ vi:
       sign_up: "Đăng ký ngay!"
       password: "Mật khẩu"
       remember: "Nhớ tôi ở thiết bị này"
+      forgot_pass: "(Quên mật khẩu)"
     create:
       invalid: "Email/mật khẩu không hợp lệ"
   shared:
@@ -104,8 +112,26 @@ vi:
       hi: "Xin chào"
       welcome: "Chào mừng đến với Sample App! Click vào link dưới đây để kích hoạt tài khoản:"
       activate: "Kích hoạt"
-  mailer:
-    account_activation: "Kích hoạt tài khoản"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      reset_your_pass: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      time_expire: "Liên kết này sẽ hết hạn sau hai giờ."
+      not_request: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+      to_reset: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới"
+  password_resets:
+    edit:
+      title: "Đặt lại mật khẩu"
+      pass: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+    new:
+      title: "Quên mật khẩu"
+      submit: "Gửi"
+      click: "Đăt lai mật khẩu"
+  mailers:
+    user_mailer:
+      account_activation: "Kích hoạt tài khoản"
+      password_reset: "Đặt lại mật khẩu"
   activerecord:
     attributes:
       user:
