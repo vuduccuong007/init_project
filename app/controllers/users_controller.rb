@@ -4,14 +4,17 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
-  def show; end
+  def show
+    @microposts = @user.microposts.order_created_at.page(params[:page])
+                       .per Settings.users_controller.page
+  end
 
   def new
     @user = User.new
   end
 
   def index
-    @users = User.page(params[:page]).per Settings.paging.size
+    @users = User.activated.page(params[:page]).per Settings.paging.size
   end
 
   def create

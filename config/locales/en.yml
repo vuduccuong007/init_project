@@ -1,5 +1,11 @@
 en:
   global:
+    valid_image: "must be a valid image format"
+    images_size: "should be less than 5MB"
+    micro_delete: "Micropost deleted"
+    micro_delete_error: "Micropost deleted fails"
+    micro_create: "Micropost created!"
+    micro_create_failed: "Micropost created failed!"
     text_success: "Welcome to the Sample App!"
     text_error: "Signup unsuccessful!"
     not_found_user: "Not found user"
@@ -47,6 +53,7 @@ en:
       app_name: "Sample app"
   static_pages:
     home:
+      micro_feed: "Micropost Feed"
       subtitle: "Home"
       path_text2: "Sign up now!"
       path_text1: "Ruby on Rails Tutorial"
@@ -79,6 +86,7 @@ en:
     new:
       subtitle: "Sign up"
       submit: "Create my account"
+      name: "Name"
     user:
       delete: "delete"
       you_sure: "You sure ?"
@@ -90,6 +98,8 @@ en:
     index:
       subtitle: "All Users"
       title: "Users list"
+    show:
+      micro: "Microposts"
   sessions:
     new:
       title: "Log in"
@@ -105,6 +115,19 @@ en:
     error_messages:
       text: "The form contains"
       error: "error"
+    micropost_form:
+      compose_micropost: "Compose new micropost..."
+      post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      view_pro: "view my profile"
+      micropost: "micropost"
+  microposts:
+    micropost:
+      post: "Posted"
+      ago: "ago"
+      delete: "delete"
+      you_sure: "You sure?"
   user_mailer:
     account_activation:
       title: "Sample app"
@@ -131,9 +154,24 @@ en:
     user_mailer:
       account_activation: "Account activation"
       password_reset: "Password reset"
+  helpers:
+    application_helper:
+      title: "Ruby on Rails Tutorial Sample App"
+  views:
+    title: "Ruby on Rails Tutorial Sample App"
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
   activerecord:
     attributes:
       user:
         name: "Name"
         password: "Password"
         password_confirmation: "Confirmation"
+    models:
+      micropost:
+        valid_image: "must be a valid image format"
+        images_size: "should be less than 5MB"

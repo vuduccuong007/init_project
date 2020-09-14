@@ -1,5 +1,11 @@
 vi:
   global:
+    valid_image: "phải là một định dạng hình ảnh hợp lệ"
+    images_size: "phải nhỏ hơn 5MB"
+    micro_delete: "Bài đăng đã bị xóa"
+    micro_delete_error: "Xóa bài đăng bị lỗi"
+    micro_create: "Bài đăng được tạo!"
+    micro_create_failed: "Tạo bài đăng lỗi!"
     text_success: "Chào mừng đến với Sample App!"
     text_error: "Đăng ký lỗi"
     not_found_user: "không tìm thấy người dùng"
@@ -47,6 +53,7 @@ vi:
       app_name: "Sample app"
   static_pages:
     home:
+      micro_feed: "nguồn bài đăng"
       subtitle: "Trang chủ"
       text: "Chào mừng đến với Sample App"
       path_text2: "Đăng ký ngay!"
@@ -91,6 +98,8 @@ vi:
     index:
       subtitle: "Tất cả người dùng"
       title: "Danh sách người dùng"
+    show:
+      micro: "Bài đăng"
   sessions:
     new:
       title: "Đăng nhập"
@@ -106,6 +115,19 @@ vi:
     error_messages:
       text: "Biểu mẫu chứa"
       error: "lỗi"
+    micropost_form:
+      compose_micropost: "Tạo bài đăng mới..."
+      post: "Đăng"
+      alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    user_info:
+      view_pro: "Xem trang cá nhân của tôi"
+      micropost: "Bài đăng"
+  microposts:
+    micropost:
+      post: "Đã đăng"
+      ago: "trước"
+      delete: "xóa"
+      you_sure: "Bạn chắc chắn chứ?"
   user_mailer:
     account_activation:
       title: "Sample app"
@@ -132,9 +154,24 @@ vi:
     user_mailer:
       account_activation: "Kích hoạt tài khoản"
       password_reset: "Đặt lại mật khẩu"
+  helpers:
+    application_helper:
+      title: "Ruby on Rails Tutorial Sample App"
+  views:
+    title: "Ruby on Rails Tutorial Sample App"
+    pagination:
+      first: "&laquo; Đầu"
+      last: "Cuối &raquo;"
+      previous: "&lsaquo; Trước"
+      next: "Tiếp &rsaquo;"
+      truncate: "&hellip;"
   activerecord:
     attributes:
       user:
         name: "Tên"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+    models:
+      micropost:
+        valid_image: "phải là một định dạng hình ảnh hợp lệ"
+        images_size: "phải nhỏ hơn 5MB"
