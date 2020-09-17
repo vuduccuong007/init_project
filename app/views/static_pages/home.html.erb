@@ -1,11 +1,28 @@
 <% provide :title, t(".subtitle") %>
-<div class = "center jumbotron" >
-  <h1><%= t ".text" %></h1>
-  <h2>
-    <%= t ".text1" %>
-    <%= link_to t(".path_text1"), Settings.home.path_link1 %>
-    <%= t ".text2" %>
-  </h2>
-  <%= link_to t(".path_text2"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-<%= link_to image_tag(Settings.home.path_link1, alt: "Rails logo", width: "200px"), "#" %>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t ".micro_feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class = "center jumbotron" >
+    <h1><%= t ".text" %></h1>
+    <h2>
+      <%= t ".text1" %>
+      <%= link_to t(".path_text1"), Settings.home.path_link1 %>
+      <%= t ".text2" %>
+    </h2>
+    <%= link_to t(".path_text2"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag(Settings.home.path_link1, alt: "Rails logo", width: "200px"), "#" %>
+<% end %>
