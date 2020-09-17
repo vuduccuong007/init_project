@@ -51,3 +51,5 @@ user_info:
 microposts:
   micropost:
     size_image: 50
+gavatar:
+  size_follow: 30
