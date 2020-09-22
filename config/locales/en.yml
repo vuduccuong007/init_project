@@ -27,6 +27,10 @@ en:
     email_send_with_pw_reset: "Email sent with password reset instructions"
     reset_pass_faild: "Password reset failed."
     invalid_user: "Invalid user"
+    following: "Following"
+    followers: "Followers"
+    user_error: "Find user fail"
+    relationships_fail: "Reationships Fail"
   title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
@@ -100,6 +104,17 @@ en:
       title: "Users list"
     show:
       micro: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_profile: "view my profile"
+  relationships:
+    create:
+      fail: "Fail"
+    destroy:
+      fail: "Fail"
   sessions:
     new:
       title: "Log in"
